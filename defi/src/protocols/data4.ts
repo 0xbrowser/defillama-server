@@ -726,6 +726,15 @@ const data4: Protocol[] = [
           {
             chain: "Sonic",
           },
+          {
+            chain: "Linea",
+          },
+          {
+            chain: "Saga",
+          },
+          {
+            chain: "Plasma",
+          }
         ],
       },
       {
@@ -29015,7 +29024,8 @@ const data4: Protocol[] = [
     parentProtocol: "parent#lighter",
     dimensions: {
       derivatives: "lighterv2",
-      "open-interest": "lighter-v2"
+      "open-interest": "lighter-v2",
+      fees: "lighterv2"
     }
   },
   {
